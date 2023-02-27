@@ -1,0 +1,23 @@
+@charset "UTF-8";
+#sendCode{
+	padding: 1vw;
+}
+#sendCode>button{
+	float: right;/*设置浮动*/
+	width: 150px;/*设置按钮宽度*/
+	height: 35px;/*设置按钮高度*/
+	color:white;/*字体颜色*/
+	background-color:cornflowerblue;/*按钮背景颜色*/
+	border-radius: 3px;/*让按钮变得圆滑一点*/
+	border-width: 0;/*消去按钮丑的边框*/
+	margin: 0;/*margin0*/
+	outline: none;/*取消轮廓*/
+	font-size: 15px;/*设置字体大小*/
+	font-weight: lighter;/*设置字体粗细*/
+	text-align: center;/*字体居中*/
+	cursor: pointer;/*设置鼠标箭头手势*/
+}
+#sendCode>button:hover{
+	transition: .8s linear;/*过渡动画*/
+	background-color:#4B71E0;
+}

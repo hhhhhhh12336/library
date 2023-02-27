@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="count_test:Web exploded">
+    <output-path>$PROJECT_DIR$/classes/artifacts/count_test_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="count_test/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="count_test" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="jstl-1.2.jar" module-name="count_test" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
